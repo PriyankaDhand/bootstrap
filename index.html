@@ -1,0 +1,343 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <title>Template 2</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="W_LOGO.jpg" alt="" width="30" height="24" class="d-inline-block align-text-top">
+                WEBSITE
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="index.html">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="about.html">ABOUT US</a>
+                    </li>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html" data-bs-toggle="modal"
+                            data-bs-target="#contactForm">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+  
+
+    <!--Contact Modal -->
+    <div class="modal fade" id="contactForm" tabindex="-1" aria-labelledby="contactFormLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="contactFormLabel">CONTACT US</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="nameForm">Name</label>
+                            <input type="text" class="form-control" id="nameForm" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="inputEmail">Email</label>
+                            <input type="email" class="form-control" id="inputEmail" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">YOUR MESSAGE</label>
+                            <textarea class="form-control" id="message" rows="3" required ></textarea>
+                          </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" >SUBMIT</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="c1.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>ECOMMERCE</h5>
+                    <p>A WAY OF INVENTING WEB LIKE NONE OTHER</p>
+                    <button type="button" class="btn btn-outline-light">SEE WORK</button>
+                    <button type="button" class="btn btn-outline-light">START A PROJECT</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="c2.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>WEB/APPS/MOBILE</h5>
+                    <p>A WAY OF INVENTING WEB LIKE NONE OTHER</p>
+                    <button type="button" class="btn btn-outline-light">SEE WORK</button>
+                    <button type="button" class="btn btn-outline-light">START A PROJECT</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="c3.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>DIGITAL MARKETING</h5>
+                    <p>A WAY OF INVENTING WEB LIKE NONE OTHER</p>
+                    <button type="button" class="btn btn-outline-light">SEE WORK</button>
+                    <button type="button" class="btn btn-outline-light">START A PROJECT</button>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <div class="container my-4">
+        <div class="card-group">
+            <div class="card " style="width: 18rem;">
+                <img src="ca1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">STRATERGY</h5>
+                    <p class="card-text">Digital Strategy &amp; Planning<br>
+                        Brand Strategy &amp; Planning<br>
+                        Information Architecture (IA)<br>
+                        Social Media Strategy<br>
+                        Content Developmen</p>
+                </div>
+            </div>
+
+
+            <div class="card" style="width: 18rem;">
+                <img src="ca2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">CREATIVE</h5>
+                    <p class="card-text">Brand &amp; Identity Design<br>
+                        Website Design<br>
+                        User Experience Design (UX)<br>
+                        Responsive Web Design (RWD)<br>
+                        Graphic &amp; Print Design</p>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img src="ca3.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">DEVELOPMENT</h5>
+                    <p class="card-text">Website Development<br>
+                        Mobile &amp; Tablet Development<br>
+                        eCommerce Development<br>
+                        Responsive Web Development<br>
+                        iPhone &amp; Android Apps</p>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img src="ca4.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">MARKETING</h5>
+                    <p class="card-text">Digital Marketing Campaigns<br>
+                        Email Marketing Campaigns<br>
+                        Social Media Campaigns<br>
+                        Search Engine Marketing<br>
+                        Video Production</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="alert alert-dark row" role="alert">
+            <div class="col-10 ">
+                <p><strong>We also do consulting.&nbsp;</strong>We can evaluate your design, conduct on-site training
+                    with your team and lead strategy initiatives.</p>
+            </div>
+            <div class="col-2  ">
+                <button type="button" class="btn btn-secondary">GET A QUOTE</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="alert alert-light" role="alert">
+        <center>
+            <h4> LATEST WORK </h4>
+            <span> IN PARTNERSHIP WITH OUR CLIENTS WE CREATE, BUILD AND NURTURE HOLISTIC EXPERIENCES. </span>
+        </center>
+    </div>
+
+    <div class="row align-items-md-stretch">
+        <div class="col-md-6">
+            <div class="h-100 p-5 text-white bg-dark rounded-3">
+                <center>
+                    <h2>GULF BANK</h2>
+                    <p>PORTFOLIO MANAGEMENT + ADVISORY SOLUTIONS</p>
+                    <button class="btn btn-outline-light" type="button">KNOW MORE</button>
+                </center>
+
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="h-100 p-5 bg-light border rounded-3">
+                <center>
+                    <h2>MY PERFUME</h2>
+                    <p>RICH AND IMMERSIVE ECOMMERCE</p>
+                    <button class="btn btn-outline-secondary" type="button">CLICK HERE</button>
+                </center>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="h-100 p-5 bg-light border rounded-3">
+                <center>
+                    <h2>PEPSI NIGERIA</h2>
+                    <p>ORDER MANAGEMENT</p>
+                    <button class="btn btn-outline-secondary" type="button">CLICK HERE</button>
+                </center>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="h-100 p-5 text-white bg-dark rounded-3">
+                <center>
+                    <h2>APPLE TAIL</h2>
+                    <p>HEALTH CARE MOBILE APP</p>
+                    <button class="btn btn-outline-light" type="button">KNOW MORE</button>
+                </center>
+
+            </div>
+        </div>
+
+    </div>
+
+    <div class="alert alert-light my-4" role="alert">
+        <center>
+            <h4> HAVE A PROJECT AND NEED AN ESTIMATE </h4>
+            <button type="button" class="btn btn-secondary my-4">CONTACT US</button>
+        </center>
+    </div>
+
+    <div class="bg-dark text-secondary px-4 py-5 text-center">
+        <div class="py-5">
+            <h2 class="display-5 text-white">ABOUT THIS WEBSITE</h2>
+            <div class="col-lg-6 mx-auto my-4">
+                <strong>We are thinkers, we are doers. We are passionate about what we get our hands on.</strong>
+                <p class="my-4">Webention has been designing and building digital experiences for approximately
+                    3&nbsp;years. We have
+                    helped enterprises and startups design and build highly successful mobile applications and web
+                    applications. Our goal in every project is to be Innovative through strategy, design and engineering
+                    to create products that exceed our clients’ expectations, provide an enjoyable user experience, and
+                    maintain the highest level of creativity. Client relationships are valuable to us and we approach
+                    each one with theintention of forming a lasting partnership and ongoing learning experience.</p>
+                <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                    <button type="button" class="btn btn-outline-light btn-lg px-4 me-sm-3 fw-bold">MORE ABOUT
+                        US</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container my-4">
+        <center>
+            <h2>OUR PROCESS</h2>
+            <button class="btn btn-outline-dark" type="button" data-bs-toggle="collapse" data-bs-target="#deconstruct"
+                aria-expanded="true" aria-controls="deconstruct">
+                DECONSTRUCT(THE WHY)
+            </button>
+            <button class="btn btn-outline-dark" type="button" data-bs-toggle="collapse" data-bs-target="#discover"
+                aria-expanded="false" aria-controls="discover">
+                DISCOVER(THE HOW)
+            </button>
+            <button class="btn btn-outline-dark" type="button" data-bs-toggle="collapse" data-bs-target="#deliver"
+                aria-expanded="false" aria-controls="deliver">
+                DELIVER(THE WHAT)
+            </button>
+        </center>
+        <div class="collapse show" id="deconstruct">
+            <div class=" card-body">
+                Some placeholder content for the collapse component. This panel is hidden by default but revealed when
+                the user activates the relevant trigger.
+            </div>
+        </div>
+        <div class="collapse" id="discover">
+            <div class=" card-body">
+                Some placeholder content for the collapse component. This panel is hidden by default but revealed when
+                the user activates the relevant trigger.
+            </div>
+        </div>
+        <div class="collapse" id="deliver">
+            <div class=" card-body">
+                Some placeholder content for the collapse component. This panel is hidden by default but revealed when
+                the user activates the relevant trigger.
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <footer class="py-3 my-4">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Features</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Pricing</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
+        </ul>
+        <p class="text-center text-muted">© 2021 Company, Inc</p>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
